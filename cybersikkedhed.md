@@ -23,3 +23,43 @@ Lavede level 4
 
 Lavede level 5 ved at manuelt at tjekke dem igennem.
 
+# 27-03-2025
+## noter fra time:
+
+CVE (Common Vulnerabilities and Exposures): et nummer af et rapporterede bug
+
+Bug bounty: penge for at finde bug i sikkerhed
+
+Responsible discolsure: I stedet for at sælge bug til hacker for penge så giver man viden til firmaet.
+
+UDP: sender packets uden at tjekke om modtagelse
+
+TCP: Med hver packets skal modtageren sende en besked som sikre for modtagelse, ellers sendes den igen.
+
+### The seven layers of the OSI model
+![img.png](billeder/seven_layer_ISO_model.png)
+
+
+HTTP: port 80
+
+Port 0-1000 er priviledged. Det kræver administrator. 
+
+
+Steps:
+	1. Mapping (curl til port scanning)
+
+
+### Netcat (NC)
+Ligesom cat, som spytter tekst ud i terminal.
+
+netcat kan bruges til at tale til en server hvor man kan specificerer input til serveren og så spytter output ud i terminalen.
+
+### Sql injection
+Ødelægger måske databaser.
+
+Prøver at lave en sekvens af tegn som får computeren til at tro strenget slutter tidligere og dermed skal køre en kommando i stedet for, som hacker selv kan specificere. 
+
+lavet dette inde på link:
+https://guicommits.com/how-sql-injection-attack-works-with-examples/
+
+

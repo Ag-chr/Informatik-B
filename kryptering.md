@@ -76,3 +76,6 @@ Regning af d
 λ(n): Greatest commom denomerator
 d=e^(−1)  mod(λ(n))
 
+## 17-01-2025
+
+
