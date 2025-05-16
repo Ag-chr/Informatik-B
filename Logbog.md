@@ -281,6 +281,32 @@ så vil det forbedre modellen markant.
 Næste gang har vi tænkt os at forbedre AI til at kunne genkende bat fra længere afstande,
 og vi vil programmere et program som holder styr på hvor langtid en spiller bruger den sorte og røde (bag hånd og forhånd)
 
+## 16-05-2025
+
+### noter
+Der er mange modeller som er bygget op af flere AI's,
+hvor den først kommer igennem et ai som identificerer mere generelle ting.
+Det gives videre til ai som kan identificerer den specifikke type ting.
+
+fx
+En som identificerer om det er en dåse og laver en ROI. Derefter
+
+ROI: markerede område hvor tingen er
+
+### logbog
+Vi skulle træne model igen, hvor vi gjorde den endnu bedre, 
+hvor vi trænede den i dobbelt så lang tid. 
+Så den trænede igennem datasættet 1000 gange istedet for 500 gange.
+Selvom den blev trænet dobbelt så langtid, så blev den ikke dobbelt så god.
+Det kan være på grund af vi ikke gav billeder med mennesker og battet sammen.
+
+Jeg programmede så den ved hvor lang tid den har identificerede den røde og sorte side:
+
+![img.png](billeder/AI_bordtennis_vision_test.png)
+
+
+
+
 
 
 
