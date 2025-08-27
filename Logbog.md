@@ -281,6 +281,64 @@ så vil det forbedre modellen markant.
 Næste gang har vi tænkt os at forbedre AI til at kunne genkende bat fra længere afstande,
 og vi vil programmere et program som holder styr på hvor langtid en spiller bruger den sorte og røde (bag hånd og forhånd)
 
+# Databaser Informatik B
+
+## 21-08-2025
+Vi fik en genopfrisker på noget af det vi lærte sidste år og noget mere om IT systemer.
+Derefter skulle vi i gang med et nyt projekt, hvor vi skulle måle noget fysisk på skolen og sende det til en database,
+hvor man kan hente det og udføre sql queries
+
+noter til timen:
+
+### IT-system
+#### Server-client
+https://informatik.systime.dk/?id=744
+En model, hvor det opdeles i client og server.
+
+#### Server
+Server: udstiller endpoint (via API), der giver client(s) mulighed for at lagre og læse data
+
+En server kan ses at bestå kun at et logik- og datalag
+
+Frameworks/libraries til server: Django, Flask, SQLite
+
+#### API (Application programming interface)
+Måde at tale til en server:
+- Get
+- Put
+- Post
+- Store
+
+JSON: tekst/data format som bruges til at sende data frem og tilbage mellem client og server
+
+#### Client
+ESP32 (wifi/bluetooth endhed)
+
+Data source client: Enhed giver data til server (skriver til server)
+
+Data sink client: Enhed Får data fra server (læser fra server)
+
+
+
+## 27-08-2025
+Mark var syg, så vi skulle lave videre på det projekt vi startede sidste gang på,
+hvor vi fik at vide vi skulle lave disse ting:
+
+Projektopstart for API projekt:
+
+1: Opret gruppe og styre dokumenter (trello, Miro, GitHub, etc)
+
+2: Beskriv projekt koncept, overvej struktur (server, klienter, sensor-nodes som sender data til serveren, et website der henter og viser data fra serveren)
+
+3: Overvej og skitsér hvilke data der skal gemmes, hvordan, hvor tit, etc
+
+4: Overvej og skitsér endpoints og deres funktionalitet for jeres API. (Push/Store, get)
+
+5: Begynd at skitsere et format for data (JSON, timestamps, payload)
+
+6: Tjek flask eksemplerne ud i min OneNote, se om i kan få noget til at køre.
+
+7: overvej indkøb/lån af udstyr (sensorer, ESP32 stuff?)
 
 
 
