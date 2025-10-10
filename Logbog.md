@@ -304,9 +304,51 @@ Jeg programmede så den ved hvor lang tid den har identificerede den røde og so
 
 ![img.png](billeder/AI_bordtennis_vision_test.png)
 
+# API og Data (første projekt i 3.g)
+
+## 21-08-2025
+Vi skulle idegenere på det nye projekt om API'er og data.
+Projektet handler om at optage noget data, sende det til en database
+og udtrække det fra databasen.
+
+Idegenering på miro board:
+https://miro.com/app/board/uXjVJUWz1Wc=/?share_link_id=143799855260
+
+## 27-08-2025
+Vi arbejder videre på projekt, hvor generede flere ideer 
+og til sidst valgte larm i lokale. 
+Det handler om vi måler decibel i lokaler.
+Her er der beskrivelsen for projektet:
+https://miro.com/app/board/uXjVJUWz1Wc=/?focusWidget=3458764638507342834
 
 
+## 01-09-2025
+Vi lavede flowchart for vores sensor node og server.
+Derefter lavede vi et E/R diagram for hvordan databasen skulle se ud
+Derudover lavede vi et trello board, hvor vi uddelte opgaver,
+hvor jeg fik lov til at arbejde på serveren og dens endpoints
 
+For sensor noden, så hjalp mark med at finde et link til 
+hvordan man får decibel ude fra en lydfil.
+
+![img.png](billeder/API og data flowchart server.png)
+![img.png](billeder/API og Data flowchart sensor.png)
+
+## 17-09-2025
+Programmerede videre på projekt
+og lavede så man kan vise hentede data fra database på en graf:
+![img.png](billeder/API og Data graf.png)
+
+Vi blev også introducere til pythonanywhere, 
+som er en hjemmeside, hvor man kan hoste sin egen hjemmeside.
+Denne brugte vi til sensor og server kan altid tale 
+og sende data mellem hinanden
+
+## 1-10-2025
+Vi lavede en tabel over vores forskellige skemaer i databasen
+og vi programmerede videre:
+
+![img.png](billeder/API og Data skemaer.png)
 
 
 
