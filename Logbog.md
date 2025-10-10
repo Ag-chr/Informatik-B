@@ -304,51 +304,65 @@ Jeg programmede så den ved hvor lang tid den har identificerede den røde og so
 
 ![img.png](billeder/AI_bordtennis_vision_test.png)
 
-# API og Data (første projekt i 3.g)
+
+# Databaser Informatik B
 
 ## 21-08-2025
-Vi skulle idegenere på det nye projekt om API'er og data.
-Projektet handler om at optage noget data, sende det til en database
-og udtrække det fra databasen.
+Vi fik en genopfrisker på noget af det vi lærte sidste år og noget mere om IT systemer.
+Derefter skulle vi i gang med et nyt projekt, hvor vi skulle måle noget fysisk på skolen og sende det til en database,
+hvor man kan hente det og udføre sql queries
 
-Idegenering på miro board:
-https://miro.com/app/board/uXjVJUWz1Wc=/?share_link_id=143799855260
+noter til timen:
+
+### IT-system
+#### Server-client
+https://informatik.systime.dk/?id=744
+En model, hvor det opdeles i client og server.
+
+#### Server
+Server: udstiller endpoint (via API), der giver client(s) mulighed for at lagre og læse data
+
+En server kan ses at bestå kun at et logik- og datalag
+
+Frameworks/libraries til server: Django, Flask, SQLite
+
+#### API (Application programming interface)
+Måde at tale til en server:
+- Get
+- Put
+- Post
+- Store
+
+JSON: tekst/data format som bruges til at sende data frem og tilbage mellem client og server
+
+#### Client
+ESP32 (wifi/bluetooth endhed)
+
+Data source client: Enhed giver data til server (skriver til server)
+
+Data sink client: Enhed Får data fra server (læser fra server)
+
+
 
 ## 27-08-2025
-Vi arbejder videre på projekt, hvor generede flere ideer 
-og til sidst valgte larm i lokale. 
-Det handler om vi måler decibel i lokaler.
-Her er der beskrivelsen for projektet:
-https://miro.com/app/board/uXjVJUWz1Wc=/?focusWidget=3458764638507342834
+Mark var syg, så vi skulle lave videre på det projekt vi startede sidste gang på,
+hvor vi fik at vide vi skulle lave disse ting:
 
+Projektopstart for API projekt:
 
-## 01-09-2025
-Vi lavede flowchart for vores sensor node og server.
-Derefter lavede vi et E/R diagram for hvordan databasen skulle se ud
-Derudover lavede vi et trello board, hvor vi uddelte opgaver,
-hvor jeg fik lov til at arbejde på serveren og dens endpoints
+1: Opret gruppe og styre dokumenter (trello, Miro, GitHub, etc)
 
-For sensor noden, så hjalp mark med at finde et link til 
-hvordan man får decibel ude fra en lydfil.
+2: Beskriv projekt koncept, overvej struktur (server, klienter, sensor-nodes som sender data til serveren, et website der henter og viser data fra serveren)
 
-![img.png](billeder/API og data flowchart server.png)
-![img.png](billeder/API og Data flowchart sensor.png)
+3: Overvej og skitsér hvilke data der skal gemmes, hvordan, hvor tit, etc
 
-## 17-09-2025
-Programmerede videre på projekt
-og lavede så man kan vise hentede data fra database på en graf:
-![img.png](billeder/API og Data graf.png)
+4: Overvej og skitsér endpoints og deres funktionalitet for jeres API. (Push/Store, get)
 
-Vi blev også introducere til pythonanywhere, 
-som er en hjemmeside, hvor man kan hoste sin egen hjemmeside.
-Denne brugte vi til sensor og server kan altid tale 
-og sende data mellem hinanden
+5: Begynd at skitsere et format for data (JSON, timestamps, payload)
 
-## 1-10-2025
-Vi lavede en tabel over vores forskellige skemaer i databasen
-og vi programmerede videre:
+6: Tjek flask eksemplerne ud i min OneNote, se om i kan få noget til at køre.
 
-![img.png](billeder/API og Data skemaer.png)
+7: overvej indkøb/lån af udstyr (sensorer, ESP32 stuff?)
 
 
 
