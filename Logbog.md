@@ -414,7 +414,7 @@ og vi programmerede videre:
 ## 27-10-2025
 Vi hørte om normalformer 
 og det skulle vi implementerer på vores database.
-Som man kan se overstående, så opfylder normalformerne
+Som man kan se overstående, så opfyldes normalformerne.
 
 ### noter til dagens time
 Fra <https://informatik.systime.dk/?id=1139> og <https://balslev.io/programmering/database/normalisering-af-databaser/>
