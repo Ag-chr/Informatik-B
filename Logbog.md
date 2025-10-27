@@ -411,3 +411,32 @@ og vi programmerede videre:
 
 ![img.png](billeder/API og Data skemaer.png)
 
+## 27-10-2025
+Vi hørte om normalformer 
+og det skulle vi implementerer på vores database.
+Som man kan se overstående, så opfylder normalformerne
+
+### noter til dagens time
+Fra <https://informatik.systime.dk/?id=1139> og <https://balslev.io/programmering/database/normalisering-af-databaser/>
+
+Normalisering af en database, er en teknik som sikrer at rettelser i databasen, kan foretages med mindst muligt indflydelse på det oprindelige system. Målet er at minimere redundant data. Det vil sige at samme oplysning er gemt flere steder. Med normalisering bliver det lettere at foretage rettelser i databasen (så skal man kun rette det ét sted).
+
+Redundans: Data som er flere steder.
+Undgå redundans og optimerer for mængden af operationer.
+Ændre mindst muligt på databasen når der ændres noget.
+
+Normalformerne sikres i rækkefølge.
+Der er tre normalformer:
+#### 1. Normalform
+Alle attributter skal dække over enkle værdier.
+
+
+Atomar: attribut kan ikke deles op i flere dele.
+Fx et attribut som har dato og navn, som er dårligt. Bedre er at lave to attributter/kolonner
+
+#### 2. Normalform
+Tabelskitsen skal være på 1. normalform, og hvis der er en attribut, der er afhængig af nøglen, så skal den være afhængig af hele nøglen.
+
+#### 3. Normalform
+Tabelskitsen skal være på 2. normalform, og ingen attributter må være indirekte afhængige af nøglen.
+
