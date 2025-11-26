@@ -440,3 +440,56 @@ Tabelskitsen skal være på 1. normalform, og hvis der er en attribut, der er af
 #### 3. Normalform
 Tabelskitsen skal være på 2. normalform, og ingen attributter må være indirekte afhængige af nøglen.
 
+# Kombinatorik og Boolsk algebra
+## 26-11-2025
+### noter til time
+Bool: rigtig/falsk, true/false 0/1, tændt/slukket, High/Low
+
+Truth table: tabel som viser alle mulige tilstande som en gate kan være
+
+AND: aktivere kun når to inputs er true
+
+NOT: inverter input
+
+NAND: Aktiverer når to inputs to ikke er true
+
+OR: Aktiverer hvis en af inputs er true
+
+XOR (exclusive OR): Aktiverer hvis kun en af inputs er true, hvis begge er aktiveret så er den slukket
+
+
+Transistors bruges til at styre disse logiske gates fordi de virker som en bool med true og false
+
+Computere bruger base 2 fordi de kan kun være lav og høj volt
+
+Når man plusser to bit sammen:
+![to bit adder truth table.png](billeder/to%20bit%20adder%20truth%20table.png)
+
+
+sådan ser det ud når man laver det med logisk operationer:
+![adder](billeder/adder.png)
+input bit
+- 1: ene bit fra øverste tal
+- 2: ene bit fra nederste tal
+- 3: carry bit (hvis tidligere bit har overskud)
+
+Output
+- 1: sum bit
+- 2: carry bit
+
+### praktisk
+Vi skulle vælge at lave at logic gates på hvilket som helst medie, som f.eks. minecraft 
+eller, det som jeg har valgt, breadboard.
+
+
+Jeg har fået lavet en nand gate, hvor den tænder og slukker en diode,
+vha. CD4093BE, som indeholder 4 NAND gates:
+![Diagram for CD4093](billeder/CD4093 diagram.png)
+
+Billede af breadboard:
+![NAND breadboard.jpg](billeder/NAND%20breadboard.jpg)
+
+
+
+
+
