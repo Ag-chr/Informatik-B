@@ -489,7 +489,17 @@ vha. CD4093BE, som indeholder 4 NAND gates:
 Billede af breadboard:
 ![NAND breadboard.jpg](billeder/NAND%20breadboard.jpg)
 
+## 01-12-2025
+Virtuel time
 
+lavet NAND gate på fritzing og fået nogle bedre kabler:
+![NAND gate.png](billeder%2FNAND%20gate.png)
+![fritzing NAND gate.png](billeder%2Ffritzing%20NAND%20gate.png)
 
+Lavet AND gate:
+![AND gate.png](billeder%2FAND%20gate.png)
+![fritzing AND gate.png](billeder%2Ffritzing%20AND%20gate.png)
 
-
+Lavet OR gate:
+![OR gate.png](billeder%2FOR%20gate.png)
+![fritzing OR gate.png](billeder%2Ffritzing%20OR%20gate.png)
