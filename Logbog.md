@@ -419,7 +419,9 @@ Som man kan se overstående, så opfyldes normalformerne.
 ### noter til dagens time
 Fra <https://informatik.systime.dk/?id=1139> og <https://balslev.io/programmering/database/normalisering-af-databaser/>
 
-Normalisering af en database, er en teknik som sikrer at rettelser i databasen, kan foretages med mindst muligt indflydelse på det oprindelige system. Målet er at minimere redundant data. Det vil sige at samme oplysning er gemt flere steder. Med normalisering bliver det lettere at foretage rettelser i databasen (så skal man kun rette det ét sted).
+Normalisering af en database, er en teknik som sikrer at rettelser i databasen, kan foretages med mindst muligt indflydelse på det oprindelige system. 
+Målet er at minimere redundant data. Det vil sige at samme oplysning er gemt flere steder. 
+Med normalisering bliver det lettere at foretage rettelser i databasen (så skal man kun rette det ét sted).
 
 Redundans: Data som er flere steder.
 Undgå redundans og optimerer for mængden af operationer.
@@ -503,3 +505,23 @@ Lavet AND gate:
 Lavet OR gate:
 ![OR gate.png](billeder%2FOR%20gate.png)
 ![fritzing OR gate.png](billeder%2Ffritzing%20OR%20gate.png)
+
+## 03-12-2025
+
+Lavet XOR gate, hvor inputsene fordeles ud på en OR gate og NAND gate. 
+Disse to outputs fra disse gates løber ind i en AND gate:
+![XOR gate.png](billeder%2FXOR%20gate.png)
+
+For at lave en half adder, så brugte jeg dette link: https://www.geeksforgeeks.org/digital-logic/implementation-of-full-adder-using-half-adders/
+
+Dette diagram på hjemmesiden brugte jeg til at lave en half adder:
+![Half-Adder diagram.png](billeder%2FHalf-Adder%20diagram.png)
+half adder:
+![half adder.png](billeder%2Fhalf%20adder.png)
+
+Desuden på dette link er der også et diagram over hvordan en full adder bliver lavet ud af half adders:
+![full adder diagram.png](billeder%2Ffull%20adder%20diagram.png)
+Full adder med 2 half adders og en OR gate (som næsten virker):
+![full adder.png](billeder%2Ffull%20adder.png)
+Jeg kunne ikke få det til at virke. Derfor fik jeg mark til at hjælpe mig, og han konstaterede,
+at nogle af ledningerne kunne være dårlige.
