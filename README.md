@@ -444,6 +444,7 @@ Tabelskitsen skal være på 2. normalform, og ingen attributter må være indire
 
 # Kombinatorik og Boolsk algebra
 ## 26-11-2025
+Video vi så: https://www.youtube.com/watch?v=QZwneRb-zqA&list=PLFt_AvWsXl0dPhqVsKt1Ni_46ARyiCGSq
 ### noter til time
 Bool: rigtig/falsk, true/false 0/1, tændt/slukket, High/Low
 
