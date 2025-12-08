@@ -74,9 +74,9 @@ Fra <https://informatik.systime.dk/?id=1136>
 
 Der er tre ting i en database:
 
-	• Entiteter:
-	• Relationer:
-	• Attributter:
+	• Entiteter
+	• Relationer
+	• Attributter
 
 En måde at få overblik over entiteter og relationer.
 
@@ -106,6 +106,8 @@ En model, hvor det opdeles i client og server. Brugt til analyse og lave struktu
 ![img.png](billeder/server_client.png)
 
 # Kryptering og opsec projekt
+github link (som indeholder miro og trello link i readme): https://github.com/Ag-chr/SIGINT-projekt
+
 ## Dato: 10-01-25
 https://informatik.systime.dk/?id=810
 ### Krav til kryptering system:
