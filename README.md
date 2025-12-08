@@ -108,6 +108,13 @@ En model, hvor det opdeles i client og server. Brugt til analyse og lave struktu
 # Kryptering og opsec projekt
 github link (som indeholder miro og trello link i readme): https://github.com/Ag-chr/SIGINT-projekt
 
+I projektet valgte vi at lave et program, som kunne krypterer en lydfil i et billede.
+Men i løbet af projektet fandt vi ud af at det var meget svært.
+Derfor gik vi med at krypterer text i et billede.
+Det gjorde vi med least significant bit (LSB).
+Den handler om at kode et sit data ind i det mindste bit for hver farve,
+da sådan et lille farveskift kan man ikke se med det blotte øje.
+
 ## Dato: 10-01-25
 https://informatik.systime.dk/?id=810
 ### Krav til kryptering system:
