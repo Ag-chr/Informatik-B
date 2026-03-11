@@ -526,17 +526,6 @@ Full adder med 2 half adders og en OR gate (som næsten virker):
 Jeg kunne ikke få det til at virke. Derfor fik jeg mark til at hjælpe mig, og han konstaterede,
 at nogle af ledningerne kunne være dårlige.
 
-
-
-
-
-
-
-
-
-
-
-
 # Robotmæssigt samfundsperspektiv projekt
 miro board som er blevet brugt: https://miro.com/app/board/uXjVGTgrGFI=/?share_link_id=713651954758
 
