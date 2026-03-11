@@ -74,9 +74,9 @@ Fra <https://informatik.systime.dk/?id=1136>
 
 Der er tre ting i en database:
 
-	• Entiteter:
-	• Relationer:
-	• Attributter:
+	• Entiteter
+	• Relationer
+	• Attributter
 
 En måde at få overblik over entiteter og relationer.
 
@@ -106,6 +106,15 @@ En model, hvor det opdeles i client og server. Brugt til analyse og lave struktu
 ![img.png](billeder/server_client.png)
 
 # Kryptering og opsec projekt
+github link (som indeholder miro og trello link i readme): https://github.com/Ag-chr/SIGINT-projekt
+
+I projektet valgte vi at lave et program, som kunne krypterer en lydfil i et billede.
+Men i løbet af projektet fandt vi ud af at det var meget svært.
+Derfor gik vi med at krypterer text i et billede.
+Det gjorde vi med least significant bit (LSB).
+Den handler om at kode et sit data ind i det mindste bit for hver farve,
+da sådan et lille farveskift kan man ikke se med det blotte øje.
+
 ## Dato: 10-01-25
 https://informatik.systime.dk/?id=810
 ### Krav til kryptering system:
@@ -444,6 +453,7 @@ Tabelskitsen skal være på 2. normalform, og ingen attributter må være indire
 
 # Kombinatorik og Boolsk algebra
 ## 26-11-2025
+Video vi så: https://www.youtube.com/watch?v=QZwneRb-zqA&list=PLFt_AvWsXl0dPhqVsKt1Ni_46ARyiCGSq
 ### noter til time
 Bool: rigtig/falsk, true/false 0/1, tændt/slukket, High/Low
 
