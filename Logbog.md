@@ -525,3 +525,70 @@ Full adder med 2 half adders og en OR gate (som næsten virker):
 ![full adder.png](billeder%2Ffull%20adder.png)
 Jeg kunne ikke få det til at virke. Derfor fik jeg mark til at hjælpe mig, og han konstaterede,
 at nogle af ledningerne kunne være dårlige.
+
+
+
+
+
+
+
+
+
+
+
+
+# Robotmæssigt samfundsperspektiv projekt
+miro board som er blevet brugt: https://miro.com/app/board/uXjVGTgrGFI=/?share_link_id=713651954758
+
+I dette projekt startede vi med at være ude ved et firma som hedder capra robotics. 
+De laver en speciel robot som kan manøvre på alle slags terræner. 
+Det som gør firmaet endnu mere specielt er, at de har fået lov til at sætte deres robotter ud i Aarhus. 
+Vores job er, at vi skal designe en mekanisme eller et scenarie for hvordan deres capra scout kan bruges i Aarhus.
+
+![capra scout.png](billeder/capra scout.png)
+
+Efter besøget hos capra robotics så mindmappede vi ideer for hvordan capra scout bruges:
+![mindmap af capra scout.png](billeder/mindmap%20af%20capra%20scout.png)
+
+Vi kom frem til en ide, hvor denne robot kunne bruges som en skolepatrulje, 
+da vi fandt ud af det var farligt for børn at være en skolepatrulje.
+Derudover kunne robotten i denne position vænne børn til robotter i offentligheden, 
+og når de er i en rolle hvor de kan muligvis redde et barn. så kan de måske få et positivt ryg fra befolkningen.
+
+Næste gang efter mindmappet af ideer så fik vi besøg af nogen fra kommunen, 
+som fortalte om lovgivning af robotter, stakeholders osv.
+
+Stakeholders:
+![stakeholders af skolepatrulje robot.png](billeder/stakeholders%20af%20skolepatrulje%20robot.png)
+
+Efter disse besøg så kunne man rigtig komme i gang, hvor vi lavede en mindmap af 
+mulige måder at løse dette problem på, hvor vi udvalgte 2 features og splittede gruppen op i to:
+![mindmap af skolepatrulje.png](billeder/mindmap%20af%20skolepatrulje.png)
+Jeg og Abdullah arbejdede med hjemmesiden, hvor man skulle kunne rapportere farlige lyskryds.
+
+For at se processen i mere detalje så gik inde på vores rapport vi har afleverede :). 
+
+Men nu bliver der givet en kort præsentation af hvad vi kom frem til:
+## webside
+Det færdige produkt der kunne man klikke på et kort, hvor koordinaterne blev puttet i input bokse. 
+Dette input kunne man så sende til serveren og dermed har man indrapporterede et farligt lyskryds.
+For dette design så brugte vi AJAX, så kortet kunne refreshes og input kunne blive sendt til server 
+uden at hele siden skulle genlæses.
+
+![demo af webside for skolepatrulje.png](billeder/demo%20af%20webside%20for%20skolepatrulje.png)
+
+## robot
+Den anden del af gruppen (Ramsen og Lukas) arbejdede med at lave et AI, 
+som kan genkende en person, der står ved et fodgængerfelt og om der er biler som passerer.
+Det gjorde de med et grove vision ai module, som tog et billede som input og spyttede hvor mange personer der var.
+
+![grove vision ai module.png](billeder/grove%20vision%20ai%20module.png)
+
+De brugte også en micro maqueen til at simulerer robotten og hvor den skal kigge.
+Først der kigger den på hvor fodgængerne står, så den kan gå ud på vejen når nogen kommer.
+Når den er ude på vejen eller er på vej så kigger den om biler kommer kørende imod, 
+hvor den kan opfange hvor tæt på bilerne er.
+
+![micro maqueen.png](billeder/micro%20maqueen.png)
+
+
