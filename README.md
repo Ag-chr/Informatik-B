@@ -536,7 +536,7 @@ Full adder med 2 half adders og en OR gate (som næsten virker):
 Jeg kunne ikke få det til at virke. Derfor fik jeg mark til at hjælpe mig, og han konstaterede,
 at nogle af ledningerne kunne være dårlige.
 
-# Robotmæssigt samfundsperspektiv projekt
+# Robotmæssigt samfundsperspektiv projekt 07.01.2026-11.03.2026
 miro board som er blevet brugt: https://miro.com/app/board/uXjVGTgrGFI=/?share_link_id=713651954758
 
 I dette projekt startede vi med at være ude ved et firma som hedder capra robotics. 
@@ -589,5 +589,23 @@ Når den er ude på vejen eller er på vej så kigger den om biler kommer køren
 hvor den kan opfange hvor tæt på bilerne er.
 
 ![micro maqueen.png](billeder/micro%20maqueen.png)
+
+# Privacy - Databrokering 11.03.2026-12.03.2026
+Det var et meget kort forløb på 2 lektioner, hvor vi så en video om databrokering:
+https://www.youtube.com/watch?v=wqn3gR1WTcA
+
+![databrokering.png](billeder/databrokering.png)
+
+Den handlede om hvor meget af ens data der bliver samlet på en når man søger på internetet,
+og hvor nemt det er at få fat i det. Selvom der bliver sagt, at de har deidenficerede dataet,
+så er det stadig nemt at identificerer en person. 
+Der bliver for eksempel sagt at man kunne identificere 99,88% af amerikaner med dette data.
+
+Værten kommer også ind på hvordan cookies tracker en på tværs af hjemmesider med third party trackers.
+Heldigvis i EU er der en lov som tvinger firmaer til at give mulighed for at brugeren kan takke nej til cookies.
+
+Til sidst i videoen der samler han selv data på folk, 
+som bor tæt på capital hill, der er sandsynligvis folk i congressen.
+Dette er for at vise hvor let det er at finde data på vigtige folk der kan bruges imod dem
 
 
