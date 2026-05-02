@@ -608,4 +608,58 @@ Til sidst i videoen der samler han selv data på folk,
 som bor tæt på capital hill, der er sandsynligvis folk i congressen.
 Dette er for at vise hvor let det er at finde data på vigtige folk der kan bruges imod dem
 
+# Parkeringssystem - Eksamensprojekt 18.03.2026 - 03.05.2026
+Github: https://github.com/hojgfd/Eksamensprojekt-Informatik
+
+Miro: https://miro.com/app/board/uXjVGvlegC4=/?share_link_id=34853586447
+
+Til dette eksamensprojekt kunne man vælge i mellem fire forskellige cases:
+cykelværkstedet, drivhuset, vandrehuset og valgfrit. 
+Vi valgte at gå med den valg frie hvor vi opstilede denne case:
+## Case
+Der er opstået samfundsmæssige problemer ved parkering på Dollerupvej på grund af det nuværende ikkeeksisterende parkeringssystem. 
+Dette har resulteret i, at elever som bor langt væk, har svært ved at få en parkeringsplads og er nødt til at være heldige hver dag om at få en plads. 
+Aarhus TECH vil gerne have en løsning, der gavner dem som bor langt væk fra skolen, da det nuværende system er frustrerende for både elever og personale.
+
+**Interessenter**
+-	Langt væk boende elever og lærere - Vil gerne have garanti for en parkeringsplads
+-	Tæt på boende elever og lærere - Vil gerne vide hvornår de har mulighed for parkeringsplads på rimelig tid
+-	P-vagter - Systemet skal ikke forstyrre deres arbejdsmæssige manøvrer
+
+## Ideen
+Vores ide til projektet er et parkeringsreservationssystem, hvor der prioriteres efter afstanden af elevens bopæl:
+![reservation.png](billeder/reservation.png)
+(senere kombineres overblikket med reservation siden)
+
+Derudover havde vi tænkt at lave en machine learning model, som kunne forudsige mængden af ledige parkeringspladser:
+![forudsigelses.png](billeder/forudsigelse.png)
+Overordnet skulle systemet virke således, hvor vi har lavet et blokdiagram og trelagsmodel:
+
+![img.png](billeder/blokdiagram eksamensprogram.png)
+![img.png](billeder/trelagsmodel eksamensprojekt.png)
+
+(Miro board går i mere detajle om design via flowcharts og struktur diagrammer)
+## færdige produkt
+Vi bruger flask til web framework og pythonanywhere til at hoste serveren.
+
+Det færdige produkt giver mulighed for at reservere en plads. 
+Hvis der ikke er pladser nok så prioriteres de elever der bor længst væk, 
+som beregnes efter afstanden fra indskrevne bopæl til skolen:
+
+![img.png](billeder/reservation hjemmeside eksamensprojekt.png)
+
+Til at lave visualisering af de reserverede og ledige pladser bruges plotly.
+
+Derudover blev der lavet en side til at vise live data, som kommer fra vores kamera node.
+Noden skal pege ned på parkeringspladsen og tage et billede.
+Derefter bruges der en machine learning klassificeringsmodel, som hedder YOLO, 
+til at identificere mængden af biler på billeder.
+Dette data gemmes på vores database, hvor man kan se mængden af biler der har været tidligere
+(firkant med error øverst vil vise live billede af parkeringspladsen når node er tilkoblet):
+
+![img.png](billeder/live data side.png)
+
+Hvis vi havde mere tid så ville vi have lavet en forudsigelsesmodel til mængden af parkeringspladser, 
+hvor den også tog data fra studieplus skemaer til at beregne dette.
+
 
